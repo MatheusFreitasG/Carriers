@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#box{
+    width: 55vw;
+    height: 70vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1.5fr;
+    grid-template-rows: 1fr 3fr 2fr;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+#logotipo{
+    font-size: 1.5em;
+}
+
+section{
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+section h1{
+    font-size: 30px;
+}
+
+#input input{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid black;
+    cursor: text;
+    outline: none;
+}
+
+p{
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+}
+
+footer{
+    grid-area: 3 / 3 / 4 / 4;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+#button{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+#button button{
+    width: 10vw;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
