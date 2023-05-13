@@ -78,19 +78,23 @@ body {
 }
 
 #bot1:hover{
-    background-color: rgb(201, 197, 197);
+    background-color: black;
+    color: white;
 }
 
 #bot2:hover{
-    background-color: rgb(201, 197, 197);
+    background-color: black;
+    color: white;
 }
 
 button#bot1:focus {
-    background-color: rgb(201, 197, 197);
+    background-color: black;
+    color: white;
 }
 
 button#bot2:focus {
-    background-color: rgb(201, 197, 197);
+    background-color: black;
+    color: white;
 }
 
 

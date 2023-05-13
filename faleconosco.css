@@ -9,7 +9,7 @@
 }
 
 body{
-    height: 110vh;
+    height: 117vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,33 +22,39 @@ body{
     height: 15vh;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
+    position: fixed;
+    bottom: 85vh;
+}
     
-    #list{
+#list{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 25px;
-    }
+}
     
-    .nav{
+.nav{
     display: flex;
     gap: 40px;
-    }
+}
     
-    li{
+li{
     list-style-type: none;
-    }
+}
     
-    a{
+a{
     color: black;
     font-size: 1.1vw;
-    }
+}
+
+a:hover{
+    text-decoration: none;
+}
     
-    h1 a{
+h1 a{
     text-decoration: none;
     font-size: 1.5vw;
-    }
+}
 
 #bloco{
     padding: 1vw 3vw;

@@ -37,6 +37,10 @@ a{
     font-size: 1.1vw;
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 h1 a{
     text-decoration: none;
     font-size: 1.5vw;
@@ -97,6 +101,12 @@ button{
     font-size: 1.2vw;
     border: none;
     cursor: pointer;
+}
+
+button:hover{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
 }
 
 #txt2{

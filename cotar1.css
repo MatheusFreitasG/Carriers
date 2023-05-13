@@ -72,6 +72,10 @@ form{
 #proximo-btn1{
     background-color: black;
     color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10vw;
     height: 7vh;
     cursor: pointer;

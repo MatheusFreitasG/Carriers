@@ -85,3 +85,9 @@ footer{
     font-weight: bold;
     border: none;
 }
+
+#button button:hover{
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+}
